@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Saurav Raj Paudel</h1>
-<h3 align="center">A passionate Electronics Engineering Student with a knack for bringing Machine Learning to Embedded and Edge computing.</h3>
+<h3 align="center">Passionate Electronics Engineering Student with a knack for bringing Machine Learning to Embedded and Edge computing.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauravrp67&label=Profile%20views&color=0e75b6&style=flat" alt="sauravrp67" /> </p>
 
