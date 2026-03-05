@@ -30,13 +30,27 @@
 * **Hardware-Aware Design**: Redesigned YOLO v2/v3/v4 in PyTorch to resolve Xilinx DPU operator incompatibilities and enable successful deployment[cite: 25].
 
 ---
+### 🛠️ Languages and Tools
 
-### Languages and Tools:
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,cuda,py,pytorch,rust,linux,docker,git" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,cuda,rust,linux,pws" />
+  </a>
+  <br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,docker,git" />
+  </a>
+</p>
+
+---
+
+### 📊 GitHub Metrics
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=sauravrp67&show_icons=true&theme=tokyonight&hide_border=true" alt="Saurav's GitHub Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauravrp67&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=sauravrp67&show_icons=true&theme=tokyonight" alt="Saurav's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauravrp67&layout=compact&theme=tokyonight" alt="Top Langs" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sauravrp67&theme=tokyonight&hide_border=true" alt="Saurav's Streak Stats" />
 </p>
