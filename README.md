@@ -1,18 +1,15 @@
 <h1 align="center">Hi 👋, I'm Saurav Raj Paudel</h1>
 <h3 align="center">Systems-ML Engineer | Specialized in Computer Vision Edge Deployment & CUDA Optimization</h3>
 
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=sauravrp67&label=Profile%20views&color=0e75b6&style=flat" alt="sauravrp67" /> 
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-HPC%20%26%20DL%20Inference-blueviolet?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Hardware-Xilinx%20Kria%20%7C%20NVIDIA%20GPU-orange?style=for-the-badge" alt="Hardware" />
 </p>
 
-<p align="left"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sauravrp67&theme=dark" alt="sauravrp67" /></a> 
-</p>
-
-- 🔭 **Currently Building**: High-performance perception pipelines for ADAS, focusing on Event-Camera processing and PointPillars acceleration.
-- ⚡ **HPC & AI Focus**: Custom CUDA kernel development for LLM/VLM inference and TensorRT/VitisAI optimization.
-- 🌱 **Deep Diving**: High-Performance Computing (HPC), Triton inference server, and Rust for systems-level safety.
-- 💬 **Ask me about**: Model Compression (Pruning/Quantization), DPU/GPU Co-design, and Real-time Edge Perception.
+- [cite_start]🔭 **Currently Building**: Real-time ADAS perception pipelines using Event-Cameras and LiDAR fusion[cite: 18, 20].
+- [cite_start]⚡ **HPC & AI Focus**: Custom CUDA kernel development for Deep Learning Domain (LLM/VLM) and TensorRT/VitisAI optimization[cite: 12].
+- [cite_start]🌱 **Deep Diving**: High-Performance Computing (HPC), Triton inference server, and C++/Rust systems programming[cite: 12].
+- [cite_start]💬 **Ask me about**: Model Compression (Pruning/Quantization), DPU/GPU Co-design, and Real-time Edge Perception[cite: 13, 21].
 - 📫 **Reach me**: [paudelsaurav3@gmail.com](mailto:paudelsaurav3@gmail.com) | [LinkedIn](https://linkedin.com/in/sauravrajpaudel)
 
 ---
@@ -21,32 +18,25 @@
 
 | Domain | Technologies |
 | :--- | :--- |
-| **HPC & Systems** | **C++/CUDA**, OpenMP, SIMD Optimization, Pybind11, PetaLinux, Bare-metal ARM |
-| **AI Deployment** | **TensorRT**, **VitisAI (DPU)**, ONNX, INT8/FP8 Quantization, Model Pruning |
-| **DL Frameworks** | **PyTorch**, TensorFlow, Triton Inference Server, Metavision SDK |
-| **Hardware** | Xilinx Kria K26, NVIDIA Jetson, ARM Cortex-A9, FPGA (Digital System Design) |
+| **HPC & Systems** | [cite_start]**C++/CUDA**, OpenMP, SIMD, Pybind11, PetaLinux, Bare-metal ARM  |
+| **AI Deployment** | [cite_start]**TensorRT**, **VitisAI (DPU)**, ONNX, INT8/FP8 Quantization, Model Pruning [cite: 11, 13, 26] |
+| **DL Frameworks** | [cite_start]**PyTorch**, TensorFlow, Triton Inference Server, Metavision SDK [cite: 12, 18] |
+| **Hardware** | [cite_start]Xilinx Kria K26, NVIDIA Jetson, ARM Cortex-A9, FPGA (Digital System Design) [cite: 11, 37] |
 
 ### 🚀 Key Technical Highlights
-* **10x Acceleration**: Optimized PointPillars preprocessing using C++/OpenMP, reducing latency from 250ms to 25ms on ARM Cortex-A9.
-* **Hardware-Aware Design**: Redesigned YOLO architectures from scratch in PyTorch to ensure compatibility with DPU operator sets.
-* **Precision Engineering**: Achieved 87% memory reduction via VitisAI INT8 PTQ with only a 3% mAP drop.
+* [cite_start]**10x Preprocessing Acceleration**: Optimized LiDAR PointPillars preprocessing from NumPy to **C++/OpenMP** with **Pybind11**, reducing latency from 250ms to 25ms on Kria ARM Cortex-A9[cite: 19].
+* [cite_start]**Event-Based Perception**: Built a Prophesee event-camera pipeline on Xilinx Kria K26, achieving YOLOv8n (INT8) inference at 35ms end-to-end latency[cite: 18].
+* [cite_start]**Structural Group Pruning**: Applied **VainF/depGraph** to YOLOv3, cutting MACs by 43% and parameters by 39% with only a 2% mAP drop on COCO.
+* [cite_start]**Hardware-Aware Design**: Redesigned YOLO v2/v3/v4 in PyTorch to resolve Xilinx DPU operator incompatibilities and enable successful deployment[cite: 25].
 
 ---
 
 ### Languages and Tools:
-<p align="left"> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="45" height="45"/> </a> 
-  <a href="https://developer.nvidia.com/cuda-zone" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Nvidia_CUDA_Logo.jpg" alt="cuda" width="70" height="45"/> </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="45" height="45"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="45" height="45"/> </a> 
-  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="45" height="45"/> </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/> </a> 
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="45" height="45"/> </a> 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cpp,cuda,py,pytorch,rust,linux,docker,git" />
 </p>
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sauravrp67&show_icons=true&locale=en&layout=compact&theme=vision-friendly-dark" alt="sauravrp67" />
-</p>
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=sauravrp67&show_icons=true&locale=en&theme=vision-friendly-dark" alt="sauravrp67" />
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=sauravrp67&show_icons=true&theme=tokyonight" alt="Saurav's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauravrp67&layout=compact&theme=tokyonight" alt="Top Langs" height="150" />
 </p>
