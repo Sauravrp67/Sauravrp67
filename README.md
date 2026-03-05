@@ -24,10 +24,10 @@
 | **Hardware** | [cite_start]Xilinx Kria K26, NVIDIA Jetson, ARM Cortex-A9, FPGA (Digital System Design) [cite: 11, 37] |
 
 ### 🚀 Key Technical Highlights
-* [cite_start]**10x Preprocessing Acceleration**: Optimized LiDAR PointPillars preprocessing from NumPy to **C++/OpenMP** with **Pybind11**, reducing latency from 250ms to 25ms on Kria ARM Cortex-A9[cite: 19].
-* [cite_start]**Event-Based Perception**: Built a Prophesee event-camera pipeline on Xilinx Kria K26, achieving YOLOv8n (INT8) inference at 35ms end-to-end latency[cite: 18].
-* [cite_start]**Structural Group Pruning**: Applied **VainF/depGraph** to YOLOv3, cutting MACs by 43% and parameters by 39% with only a 2% mAP drop on COCO.
-* [cite_start]**Hardware-Aware Design**: Redesigned YOLO v2/v3/v4 in PyTorch to resolve Xilinx DPU operator incompatibilities and enable successful deployment[cite: 25].
+* **10x Preprocessing Acceleration**: Optimized LiDAR PointPillars preprocessing from NumPy to **C++/OpenMP** with **Pybind11**, reducing latency from 250ms to 25ms on Kria ARM Cortex-A9[cite: 19].
+* **Event-Based Perception**: Built a Prophesee event-camera pipeline on Xilinx Kria K26, achieving YOLOv8n (INT8) inference at 35ms end-to-end latency[cite: 18].
+* **Structural Group Pruning**: Applied **VainF/depGraph** to YOLOv3, cutting MACs by 43% and parameters by 39% with only a 2% mAP drop on COCO.
+* **Hardware-Aware Design**: Redesigned YOLO v2/v3/v4 in PyTorch to resolve Xilinx DPU operator incompatibilities and enable successful deployment[cite: 25].
 
 ---
 
