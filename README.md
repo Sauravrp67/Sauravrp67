@@ -22,7 +22,7 @@ I deploy quantized perception models on AMD edge silicon and write hand-tuned CU
 
 **[CUDA GEMM Kernel Optimization](https://github.com/Sauravrp67/CUDA-GEMM)**
 
-An FP32 SGEMM optimization ladder on sm_89 (RTX 4050 Laptop, ~55 W TGP). It starts from a naive kernel and works up through shared-memory tiling, thread coarsening, 1D/2D register tiling, 128-bit vectorized loads, and warp tiling, all exposed through PyTorch bindings and validated against `torch.matmul`. Nsight Compute drove the tuning: FMA-pipe utilization went from 28% to 53%, SM throughput from 41% to 65%, and the best kernel hits **6.57 TFLOPS** on an 8192x8192 FP32 matmul. That's **8.8x over the naive version** and **89.6% of `torch.matmul`** on the same throttled silicon. Tensor-core (mma/wmma) and CUTLASS stages are still in progress.
+An FP32 SGEMM optimization ladder on sm_89 (~105 W TGP). It starts from a naive kernel and works up through shared-memory tiling, thread coarsening, 1D/2D register tiling, 128-bit vectorized loads, and warp tiling, all exposed through PyTorch bindings and validated against `torch.matmul`. Nsight Compute drove the tuning: FMA-pipe utilization went from 28% to 53%, SM throughput from 41% to 65%, and the best kernel hits **6.57 TFLOPS** on an 8192x8192 FP32 matmul. That's **8.8x over the naive version** and **89.6% of `torch.matmul`** on the same throttled silicon. Tensor-core (mma/wmma) and CUTLASS stages are still in progress.
 
 ---
 
@@ -32,7 +32,7 @@ An FP32 SGEMM optimization ladder on sm_89 (RTX 4050 Laptop, ~55 W TGP). It star
 | :--- | :--- |
 | **HPC & Systems** | **C++ / CUDA**, Nsight Compute, OpenMP, NEON SIMD, Pybind11, PetaLinux, bare-metal ARM |
 | **Edge AI Deployment** | **VitisAI (DPU/NPU)**, VART C++, ONNX, INT8 PTQ, model pruning, Metavision SDK |
-| **DL Frameworks** | **PyTorch**, TensorFlow |
+| **DL Frameworks** | **PyTorch**, cuDNN |
 | **Hardware** | AMD Versal AI Edge VE2802 (Cortex-A72 PS + AIE-ML), Xilinx Kria K26 (Cortex-A53), NVIDIA Ada (sm_89) |
 
 ---
